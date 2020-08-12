@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrstructure", "Infrstructure", "{2886F704-F7B8-4D75-A8B1-AE7535E89604}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{C76BE46A-88A4-49CE-9A0B-ECEB83DCC2ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D00D1841-70FB-4F34-BBC1-27DC0A63E2D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisTest.Infrstructure.Cache", "RedisTest.Infrstructure.Cache\RedisTest.Infrstructure.Cache.csproj", "{7D6D7643-6DEA-45A5-B516-66E357B73806}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{0DD2A978-B10F-4EFB-920A-853D8003DC84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisTest.Infrstructure.CacheTests", "RedisTest.Infrstructure.CacheTests\RedisTest.Infrstructure.CacheTests.csproj", "{12E6BD0E-5E72-414C-A6DD-669722BCE0E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D6D7643-6DEA-45A5-B516-66E357B73806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D6D7643-6DEA-45A5-B516-66E357B73806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D6D7643-6DEA-45A5-B516-66E357B73806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D6D7643-6DEA-45A5-B516-66E357B73806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E6BD0E-5E72-414C-A6DD-669722BCE0E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E6BD0E-5E72-414C-A6DD-669722BCE0E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E6BD0E-5E72-414C-A6DD-669722BCE0E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E6BD0E-5E72-414C-A6DD-669722BCE0E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D6D7643-6DEA-45A5-B516-66E357B73806} = {2886F704-F7B8-4D75-A8B1-AE7535E89604}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C956A0CC-7D36-4D8F-8FDD-6258ED2F93D9}
+	EndGlobalSection
+EndGlobal
